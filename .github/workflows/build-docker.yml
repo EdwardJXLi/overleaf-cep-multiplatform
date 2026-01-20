@@ -2,10 +2,10 @@ name: Build and Push Multi-Platform Docker Image
 
 on:
   push:
-    branches: [ main, master, ext-ce ]
-    tags: [ 'v*' ]
+    branches: ['**']
+    tags: ['v*']
   pull_request:
-    branches: [ main, master, ext-ce ]
+    branches: ['**']
 
 env:
   REGISTRY: ghcr.io
