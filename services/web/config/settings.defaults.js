@@ -1108,3 +1108,5 @@ module.exports = {
 module.exports.mergeWith = function (overrides) {
   return merge(overrides, module.exports)
 }
+
+module.exports.splitTestOverrides = {'editor-redesign': 'enabled'}
